@@ -1,6 +1,6 @@
 package model;
-
+import java.
 public class Pannel
 {
-	time = new Clocktime();
+	int clockTime;
 }
