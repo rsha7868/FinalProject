@@ -1,23 +1,35 @@
 package controller;
 import model.Pannel;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
-import java.sql.Time;
-
+import timeLimit.Time;
 import model.Frame;
 public class Controller
 {
 	public void start()
 	{
-		int clockTime = 0;
-		{
-			while(clockTime == 0)
-			{
-				clockTime++;
-				if(clockTime == 60)
+		{	
+			int t = 1;
+			do
 				{
-				System.out.println("At 60");
+				t++;
+				System.out.println(t);
+				}
+				while(t <= 1000);
+			{
+			if(t > 100)
+				{
+				System.out.println("10 seconds left");
+				// When you are getting to end of the cycle.
+				}
+				else
+				{
+				System.out.println("Keep going");
+							
 				}
 			}
 		}
+	
 	}
 }
