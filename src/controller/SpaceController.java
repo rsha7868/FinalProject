@@ -4,8 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import timeLimit.Time;
-import model.Frame;
-public class Controller
+import model.SpaceFrame;
+public class SpaceController
 {
 	public void start()
 	{

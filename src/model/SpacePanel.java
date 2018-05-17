@@ -1,6 +1,7 @@
 package model;
 
-public class Pannel
+public class SpacePanel
 {
 	int clockTime;
+	public
 }

@@ -1,10 +1,10 @@
 package controller;
 
-public class Runner
+public class SpaceRunner
 {
 	public static void main(String [] args)
 	{
-	Controller app = new Controller();
+	SpaceController app = new SpaceController();
 	app.start();
 	}
 }
