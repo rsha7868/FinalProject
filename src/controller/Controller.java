@@ -10,26 +10,29 @@ public class Controller
 	public void start()
 	{
 		{	
-			int t = 1;
+			int t = -1;
 			do
 				{
 				t++;
 				System.out.println(t);
-				}
-				while(t <= 1000);
-			{
-			if(t > 100)
+				if(t > 0  && t < 2)
 				{
-				System.out.println("10 seconds left");
+					System.out.println(t + " Start of the Race");
+				}
+				if(t > 59 && t < 61)
+				{
+				System.out.println(t + " It is over");
 				// When you are getting to end of the cycle.
+				//Last 10 Secs left
 				}
-				else
+				if(t >29 && t < 31)
 				{
-				System.out.println("Keep going");
-							
+					System.out.println(t +" Half way there");
 				}
+			}
+				while(t < 60);
+				
 			}
 		}
 	
 	}
-}
