@@ -1,5 +1,5 @@
 package controller;
-import model.Pannel;
+import model.SpacePanel;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
